@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device_width, initial_scale=1.0">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-9ndCyUaIbzAi2FUVXJi0CjmCapSmO7SnpJef0486qhLnuZ2cdeRhO02iuK6FUUVM" crossorigin="anonymous">
+  <title>Document</title>
+</head>
+<body>
+  <h1><center>Mushroom Classification</center></h1>
+  <div class="container text_center">
+  <form action="/submit" method="post">
+    <label class="form-label">cap_shape</label>
+    <input placeholder="value b/w 0-5" class="form-control" placeholder="value b/w 0-5" type="number" name="cap_shape">
+    <label class="form-label">cap_surface</label>
+    <input placeholder="value b/w 0-3" class="form-control"  type="number" name="cap_surface">
+    <label class="form-label">cap_color</label>
+    <input placeholder="value b/w 0-9" class="form-control"  type="number" name="cap_color">
+    <label class="form-label">bruises</label>
+    <input placeholder="value b/w 0-1" class="form-control"  type="number" name="bruises">
+    <label class="form-label">odor</label>
+    <input placeholder="value b/w 0-8" class="form-control"  type="number" name="odor">
+    
+    <label class="form-label">gill_attachment</label>
+    <input placeholder="value b/w 0-1" class="form-control"  type="number" name="gill_attachment">
+    <label class="form-label">gill_spacing</label>
+    <input placeholder="value b/w 0-1" class="form-control"  type="number" name="gill_spacing">
+    <label class="form-label">gill_size</label>
+    <input placeholder="value b/w 0-1" class="form-control"  type="number" name="gill_size">
+    <label class="form-label">gill_color</label>
+    <input placeholder="value b/w 0-11" class="form-control"  type="number" name="gill_color">
+    <label class="form-label">stalk_shape</label>
+    
+    <input placeholder="value b/w 0-1" class="form-control"  type="number" name="stalk_shape">
+    <label class="form-label">stalk_root</label>
+    <input placeholder="value b/w 0-4" class="form-control"  type="number" name="stalk_root">
+    <label class="form-label">stalk_surface_above_ring</label>
+    <input placeholder="value b/w 0-3" class="form-control"  type="number" name="stalk_surface_above_ring">
+    <label class="form-label">stalk_surface_below_ring</label>
+    <input placeholder="value b/w 0-3" class="form-control"  type="number" name="stalk_surface_below_ring">
+    <label class="form-label">stalk_color_above_ring</label>
+    <input placeholder="value b/w 0-8" class="form-control"  type="number" name="stalk_color_above_ring">
+    
+    <label class="form-label">stalk_color_below_ring</label>
+    <input placeholder="value b/w 0-8" class="form-control"  type="number" name="stalk_color_below_ring">
+    <label class="form-label">ring_number</label>
+    <input placeholder="value b/w 0-2" class="form-control"  type="number" name="ring_number">
+    <label class="form-label">ring_type</label>
+    <input placeholder="value b/w 0-4" class="form-control"  type="number" name="ring_type">
+    <label class="form-label">spore_print_color</label>
+    <input placeholder="value b/w 0-8" class="form-control"  type="number" name="spore_print_color">
+    <label class="form-label">population</label>
+    <input placeholder="value b/w 0-5" class="form-control"  type="number" name="population">
+    
+    <label class="form-label">habitat</label>
+    <input placeholder="value b/w 0-6" class="form-control"  type="number" name="habitat">
+    <button type="submit" class="btn btn-primary">Submit</button>
+    
+  </form>
+  
+  <h1>The Mushroom is {{result}}</h1>
+</body>
+</html>

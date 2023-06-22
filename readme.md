@@ -27,7 +27,7 @@ The following features have been used to train the models:
 - habitat
 
 ### Output
-The output of the prediction is represented as a binary value, where 0 indicates the mushroom is not edible, and 1 indicates it is edible.
+The output of the prediction is represented as a binary value, where 0 indicates the mushroom is edible, and 1 indicates it is not edible.
 
 ### Installation and Setup
 To run this project locally, follow these steps:
